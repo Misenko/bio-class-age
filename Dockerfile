@@ -1,7 +1,8 @@
 ARG branch=master
 ARG version
+ARG parent_version
 
-FROM misenko/bio-class:${version}
+FROM misenko/bio-class:${parent_version}
 
 ENV name="bio-class-age"
 ENV install_dir="/opt/${name}"
