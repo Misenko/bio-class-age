@@ -38,6 +38,7 @@ This image is intended for Analysis of gene expression class tought at Institute
 * arrayQualityMetrics
 * beadarray
 * biomaRt
+* dendextend
 * gdata
 * genefilter
 * goseq
@@ -45,6 +46,7 @@ This image is intended for Analysis of gene expression class tought at Institute
 * gtools
 * hgu133plus2cdf
 * hgu133plus2probe
+* hgu133plus2.db
 * hwriter
 * illuminaHumanv3.db
 * lattice
