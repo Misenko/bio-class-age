@@ -16,6 +16,8 @@ update_sources
 install_rstudio
 configure_rstudio
 
+install_bsmap_dependencies
+install_bsmap
 install_bwa
 install_cutadapt_dependencies
 install_cutadapt
