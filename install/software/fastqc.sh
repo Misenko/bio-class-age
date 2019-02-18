@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FASTQC_VERSION="0.11.7"
+FASTQC_VERSION="0.11.8"
 
 function install_fastqc {
   wget --no-verbose https://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v${FASTQC_VERSION}.zip -P "${TMP_DIR}"
