@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RSTUDIO_VERSION="1.1.414"
+RSTUDIO_VERSION="1.1.463"
 LOCAL_RSTUDIO_REPO="/var/local-rstudio-repo"
 
 function add_rstudio_sources {
