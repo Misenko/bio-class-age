@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SAMTOOLS_VERSION="1.6"
+SAMTOOLS_VERSION="1.9"
 SAMTOOLS_SOFTWARE="htslib samtools bcftools"
 
 function install_samtools_dependencies {
