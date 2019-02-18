@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PICARD_VERSION="2.17.4"
+PICARD_VERSION="2.18.26"
 
 function install_picard-tools {
   mkdir -p "${INSTALL_DIR}/picard-${PICARD_VERSION}"
