@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRA_VERSION="2.8.2-1"
+SRA_VERSION="2.9.4"
 
 function install_sra-toolkit {
   wget --no-verbose https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/${SRA_VERSION}/sratoolkit.${SRA_VERSION}-ubuntu64.tar.gz -P "${TMP_DIR}"
