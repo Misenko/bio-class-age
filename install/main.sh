@@ -23,6 +23,8 @@ install_cutadapt_dependencies
 install_cutadapt
 install_fastqc
 install_gmap
+install_multiqc_dependencies
+install_multiqc
 install_picard-tools
 install_salmon
 install_samtools_dependencies
