@@ -1,4 +1,4 @@
-# bio-class-agec
+# bio-class-age
 Dockerfile for building virtual classroom for biology students - Analysis of gene expression class
 
 ## Usage
@@ -7,10 +7,13 @@ This image is intended for Analysis of gene expression class tought at Institute
 ## Software
 * BCFtools
 * Bioconductor
+* BSMAP
 * BWA
 * cutadapt
 * FastQC
 * gmap
+* HTSlib
+* MultiQC
 * Picard-tools
 * RStudio Desktop + Server
 * salmon
@@ -22,6 +25,7 @@ This image is intended for Analysis of gene expression class tought at Institute
 * Biobase
 * BiocParallel
 * DESeq2
+* DT
 * GOstats
 * GOsummaries
 * GenomicAlignments
@@ -32,6 +36,7 @@ This image is intended for Analysis of gene expression class tought at Institute
 * RColorBrewer
 * ReportingTools
 * Rsamtools
+* Seurat
 * affy
 * airway
 * annotate
@@ -44,9 +49,9 @@ This image is intended for Analysis of gene expression class tought at Institute
 * goseq
 * gplots
 * gtools
+* hgu133plus2.db
 * hgu133plus2cdf
 * hgu133plus2probe
-* hgu133plus2.db
 * hwriter
 * illuminaHumanv3.db
 * lattice
@@ -57,14 +62,17 @@ This image is intended for Analysis of gene expression class tought at Institute
 * org.Hs.eg.db
 * org.Mm.eg.db
 * org.Rn.eg.db
+* pander
 * pd.rat230.2
 * pheatmap
 * preprocessCore
 * qvalue
 * rat2302.db
+* rmarkdown
 * sva
+* tidyverse
 * vsn
 * xtable
 
 ## Image
-RStudio server is started on container start. User can log-in via username: `student` and password set via `PASSWORD` container environment variable. To access RStudio server container must bind port 8787.
+RStudio server is started on container start. User can log-in via username: `student` and password set via `PASSWORD` container environment variable. To access RStudio server container must be bind on port 8787.
